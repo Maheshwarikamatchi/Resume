@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper
+{
+	width:100%;
+	height:auto;
+	background-color:pink;
+}
+
+
+.footer
+{
+	width:100%;
+	height:5%;
+	background-color:blue;
+	float:left;
+	color:#FFF;
+	margin-top:252px;
+	text-align:center;
+}
+
+.txt
+{
+	padding:10px 10px;
+	margin:5px 5px;
+}
+
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+.one
+{
+	width:100%;
+	height:10%;
+	background-color:blue;
+	float:left;
+	text-align:center;
+	color:white;
+}
+
+.two
+{
+	width:100%;
+	height:4%;
+	background-color:green;
+	float:left;
+	text-align:left;
+	color:white;
+}
+
+.back
+{
+	height:100%;
+	width:4%;
+	background-color:#9F9;
+	float:left;
+}
+.two_txt
+{
+	color:red;
+	text-align:center;
+	float:left;
+	height:100%;
+	width:96%;
+	background-color:yellow;
+	float:left;
+}
+
+.fields
+{
+	height:86%;
+	width:100%;
+	background-color:#9FF;
+	float:left;
+}
+
+.route
+{
+	height:5%;
+	width:100%;
+	background-color:#9FF;
+	float:left;
+}
+
+.fields_box
+{
+	width:550px;
+	height:88%;
+	background-color:#3F9;
+	float:left;
+	margin-left:400px;
+	margin-top:45px;
+	font-size:24px;
+	color:#F06;
+	text-align:center;
+}
+
+.acon
+{
+	height:325px;
+	width:460px;
+	background-color:#C0F;
+	float:left;
+	margin-left:47px;
+	margin-top:27px;
+	font-size:30px;
+}
+.alogin
+{
+	height:30px;
+	width:90px;
+	float:left;
+	margin-top:40px;
+	margin-left:300px;
+}
+
+.button
+{
+	position:relative;
+	background-color:#0F0;
+	border:none;
+	padding:10px;
+	width:85px;
+	text-align:center;
+	text-decoration:none;
+	text-decoration:none;
+	cursor:pointer;
+}
+.button:after
+{
+	content:"";
+	background:#f1f1f1;
+	display:block;
+	position:absolute;
+	padding-top:30%;
+	padding-left:35%;
+	margin-top:-120%;
+	opacity:0;
+	transition:all 0.8s;
+}
+
+.button:active:after
+{
+	padding:0;
+	margin:0; 
+	opacity:1;
+	transition:0s;
+}
+
+.b1 
+{
+	height:35px;
+	width:85px;
+	float:left;
+	margin-left:-45px;
+	background-color:#933;
+	margin-top:45px;
+}
+
+
+.b2
+{
+	height:35px;
+	width:85px;
+	margin-left:35px;
+	margin-top:85px;
+	float:left;
+	background-color:#C6F;
+}
